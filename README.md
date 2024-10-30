@@ -11,8 +11,6 @@ A simple and responsive authentication application built with React. This app in
 - **Forgot Password**: Users can request a password reset link to their registered email.
 - **Responsive Design**: The app is fully responsive, providing an optimal experience on both mobile and desktop devices.
 
----
-
 ## Technologies Used
 
 **Frontend**: 
@@ -23,8 +21,6 @@ A simple and responsive authentication application built with React. This app in
 **Backend**: 
 - Node.js (Express)
 - JSON Server (for mock API)
-
----
 
 ## Installation
 
@@ -99,4 +95,4 @@ Contributions are welcome! If you would like to contribute to the project, pleas
 ## Contact
 
 For any inquiries, please reach out at [hemmati.atefeh97@gmail.com](mailto:hemmati.atefeh97@gmail.com).
-```
+
