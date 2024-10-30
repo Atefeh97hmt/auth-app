@@ -1,4 +1,3 @@
-markdown
 # Authentication App
 
 A simple and responsive authentication application built with React. This app includes user sign-in, sign-up, and password reset functionalities, providing a user-friendly interface for managing user authentication.
