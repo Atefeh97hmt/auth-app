@@ -1,5 +1,4 @@
-
-```markdown
+markdown
 # Authentication App
 
 A simple and responsive authentication application built with React. This app includes user sign-in, sign-up, and password reset functionalities, providing a user-friendly interface for managing user authentication.
@@ -14,11 +13,13 @@ A simple and responsive authentication application built with React. This app in
 ## Technologies Used
 
 **Frontend**: 
+
 - React
 - Axios (for API requests)
 - Tailwind CSS (for styling)
 
 **Backend**: 
+
 - Node.js (Express)
 - JSON Server (for mock API)
 
@@ -95,5 +96,3 @@ Contributions are welcome! If you would like to contribute to the project, pleas
 ## Contact
 
 For any inquiries, please reach out at [hemmati.atefeh97@gmail.com](mailto:hemmati.atefeh97@gmail.com).
-
- ```
