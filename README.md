@@ -1,70 +1,89 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# Authentication App
 
-## Available Scripts
+A simple and responsive authentication application built with React. This app includes user sign-in, sign-up, and password reset functionalities, providing a user-friendly interface for managing user authentication.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **User Registration**: New users can sign up by providing their personal information.
+- **User Sign-In**: Registered users can log in using their credentials.
+- **Forgot Password**: Users can request a password reset link to their registered email.
+- **Responsive Design**: The app is fully responsive, providing an optimal experience on both mobile and desktop devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: 
+  - React
+  - Axios (for API requests)
+  - Tailwind CSS (for styling)
+- **Backend**: 
+  - Node.js (Express)
+  - JSON Server (for mock API)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get started with the authentication app, follow these steps:
 
-### `npm run build`
+1. **Clone the repository**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/atefeh97hmt/auth-app.git
+   cd auth-app
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. **Run the development server**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Start the backend** (if using JSON Server):
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   - Install JSON Server globally (if not already installed):
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+     ```bash
+     npm install -g json-server
+     ```
 
-## Learn More
+   - Run the JSON Server with your data file (e.g., `db.json`):
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+     ```bash
+     json-server --watch db.json --port 5000
+     ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open your browser and navigate to `http://localhost:3000` to view the app.
 
-### Code Splitting
+## API Endpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app interacts with the following endpoints (assuming you are using JSON Server):
 
-### Analyzing the Bundle Size
+- **GET /users**: Retrieve all users (for sign-in validation).
+- **POST /users**: Create a new user (for sign-up).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
 
-### Making a Progressive Web App
+- **Sign Up**: Navigate to the sign-up page, fill in the required fields, and click the "Sign Up" button.
+- **Sign In**: Navigate to the sign-in page, enter your credentials, and click the "Sign In" button.
+- **Forgot Password**: Navigate to the forgot password page, enter your email, and click the "Reset Password" button to receive a reset link.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are welcome! If you would like to contribute to the project, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeatureName`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/YourFeatureName`.
+5. Open a pull request.
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any inquiries, please reach out at hemmati.atefeh97@gmail.com.
+```
